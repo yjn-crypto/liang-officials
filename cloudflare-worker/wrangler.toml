@@ -1,0 +1,6 @@
+name = "liang-officials-api"
+main = "src/index.js"
+compatibility_date = "2025-04-01"
+
+# 部署后设置环境变量（API Key）：
+# npx wrangler secret put DEEPSEEK_API_KEY
