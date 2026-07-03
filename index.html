@@ -177,7 +177,7 @@ function fuzzUnknown(rs) {
 
 // ===== AI 配置（API Key 不存前端！） =====
 // 部署 Cloudflare Worker 后把下面 URL 替换为你的 Worker 地址（见 cloudflare-worker/ 目录）
-var WORKER_URL = '';
+var WORKER_URL = 'https://liang-officials-api.flaxen-break.workers.dev';
 
 function isAIReady() { return WORKER_URL && WORKER_URL.indexOf('https://') === 0; }
 
